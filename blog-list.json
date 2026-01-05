@@ -1,15 +1,46 @@
 {
-  "version": "1.0",
-  "generated_at": "2026-01-05T00:00:00Z",
-  "blogs": [
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "id": "example-1",
-      "title": "Welcome to my blog",
-      "slug": "welcome-to-my-blog",
-      "date": "2026-01-05",
-      "summary": "This is a placeholder entry. Replace with your real posts.",
-      "tags": ["intro"],
-      "url": "/blog/welcome-to-my-blog"
+      "@type": "ItemList",
+      "name": "Hug-Live 部落格文章列表",
+      "description": "提供專業貓咪照護知識與居家生活指南",
+      "url": "https://hug-live.com/blog",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://hug-live.com/blog/posts/seasonal-care"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://hug-live.com/blog/posts/i-cat-e-cat"
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "變天了！貓奴必看：貓咪換季注意事項",
+      "articleSection": "貓咪知識",
+      "description": "整理實用的貓咪變天照護重點，幫助毛孩在冷熱交替的季節依然舒適穩定。",
+      "datePublished": "2024-11-20",
+      "author": { "@type": "Organization", "name": "Hug-Live" },
+      "url": "https://hug-live.com/blog/posts/seasonal-care",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Hug-Live 抱抱貓跳台",
+        "logo": { "@type": "ImageObject", "url": "https://hug-live.com/logo.png" }
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "headline": "你家的貓是 I 貓還是 E 貓？",
+      "articleSection": "貓咪趣味",
+      "description": "分析貓咪內向與外向性格差異，以及對生活環境的不同需求。",
+      "datePublished": "2024-11-10",
+      "author": { "@type": "Organization", "name": "Hug-Live" },
+      "url": "https://hug-live.com/blog/posts/i-cat-e-cat"
     }
   ]
 }
