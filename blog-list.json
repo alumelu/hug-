@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-01-05T00:00:00Z",
+  "blogs": [
+    {
+      "id": "example-1",
+      "title": "Welcome to my blog",
+      "slug": "welcome-to-my-blog",
+      "date": "2026-01-05",
+      "summary": "This is a placeholder entry. Replace with your real posts.",
+      "tags": ["intro"],
+      "url": "/blog/welcome-to-my-blog"
+    }
+  ]
+}
